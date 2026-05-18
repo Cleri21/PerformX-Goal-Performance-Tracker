@@ -1,4 +1,4 @@
-# Goal Tracking Portal — Full-Stack
+# perform x goal performance tracker — Full-Stack
 
 A full-stack goal tracking application with role-based dashboards for Employees, Managers, and Admins.
 
