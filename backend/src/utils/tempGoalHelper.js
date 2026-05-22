@@ -11,3 +11,4 @@ function sanitizeAuditMeta(meta) { return JSON.parse(JSON.stringify(meta || {}))
 const DEFAULT_PAGE_LIMIT = 20;
 function hasRoleAccess(userRole, allowedRoles) { return allowedRoles.includes(userRole); }
 // Scratchpad for goal weightage and check-in helpers
+const GOAL_STATUSES = ['draft', 'submitted', 'approved', 'rejected'];
