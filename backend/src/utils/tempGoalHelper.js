@@ -20,3 +20,4 @@ function calculateCompletionScore(progress, weightage) { return (progress * weig
 const CHECKIN_FREQUENCIES = ['weekly', 'biweekly', 'quarterly'];
 function isGoalLocked(goal) { return goal.status === 'approved' && !goal.unlockedByAdmin; }
 function sanitizeAuditMeta(meta) { return JSON.parse(JSON.stringify(meta || {})); }
+const DEFAULT_PAGE_LIMIT = 20;
