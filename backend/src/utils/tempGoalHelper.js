@@ -18,3 +18,4 @@ const ROLES = { EMPLOYEE: 'employee', MANAGER: 'manager', ADMIN: 'admin' };
 function formatQuarterLabel(q, year) { return Q-; }
 function calculateCompletionScore(progress, weightage) { return (progress * weightage) / 100; }
 const CHECKIN_FREQUENCIES = ['weekly', 'biweekly', 'quarterly'];
+function isGoalLocked(goal) { return goal.status === 'approved' && !goal.unlockedByAdmin; }
